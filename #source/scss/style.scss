@@ -167,6 +167,66 @@ li {
 		}
 	}
 }
+.hot-deal {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 98px;
+    padding-bottom: 98px;
+}
+.left-column, .right-column {
+	display: flex;
+	flex-direction: column;
+}
+.for-men {
+	width: 560px;
+	height: 542px;
+	background-image: url(../img/hot-deal/1.png);
+	margin-bottom: 20px;
+}
+.info-box {
+	margin-top: 20px;
+	background-color: #ffffff;
+	display: inline-block;
+	padding: 18px;
+
+}
+.title {
+}
+.title__link {
+
+	color: #222222;
+	font-weight: 900;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.45px;
+}
+.subtitle {}
+.subtitle__link {
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #f16d7f;
+	font-size: 30px;
+	letter-spacing: 0.75px;
+}
+.accesories {
+	background-color: #dadad2;
+}
+.accesories__content {
+	height: 261px;
+	background-image: url(../img/hot-deal/2.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.women {
+	width: 560px;
+	height: 261px;
+	background-image: url(../img/hot-deal/3.png);
+	margin-bottom: 20px;
+}
+.for-kids {
+	height: 542px;
+	background-image: url(../img/hot-deal/4.png)
+}
 .footer {
   height: 100px;
   background-color: grey;
