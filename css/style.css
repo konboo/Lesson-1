@@ -88,7 +88,6 @@ li {
   width: 280px;
   background-color: #ffffff;
   border: 1px solid #e6e6e6;
-  border-radius: 0px 3px 3px 0px;
 }
 .header__form input::placeholder {
   font-weight: 300;
@@ -127,13 +126,12 @@ li {
 }
 
 .menu__link {
-  font-family: "Lato";
   font-size: 14px;
   font-weight: bold;
   color: #222222;
   text-transform: uppercase;
   display: block;
-  padding: 20px;
+  padding: 15px 22px;
 }
 
 .promo {
@@ -141,9 +139,40 @@ li {
 }
 
 .promo__content {
+  position: relative;
   height: 613px;
   background-image: url(../img/promo.png);
-  background-position: 0 -51px;
+  background-position: -37px -51px;
+}
+
+.red-line {
+  position: absolute;
+  top: 225px;
+  width: 12px;
+  height: 92px;
+  background-color: #f16d7f;
+}
+
+.promo__descr {
+  max-width: 515px;
+  padding: 210px 0 0px 23px;
+}
+.promo__descr h1 {
+  font-weight: 900;
+  color: #222222;
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 1.5px;
+}
+.promo__descr p {
+  letter-spacing: 1px;
+  font-weight: 900;
+  color: #222222;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.promo__descr p span {
+  color: #f16d7f;
 }
 
 .footer {
