@@ -355,6 +355,44 @@ li {
   padding-left: 9px;
 }
 
+.offer {
+  display: flex;
+}
+
+.offer__left {
+  background: url(../img/offer/1.png) no-repeat;
+  position: relative;
+}
+
+.overlay {
+  width: 767px;
+  height: 529px;
+}
+
+.offer__left-content {
+  position: absolute;
+  top: 135px;
+  left: 35px;
+  max-width: 300px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4.5px;
+}
+.offer__left-content span {
+  color: #f16d7f;
+}
+.offer__left-content p {
+  letter-spacing: 0.9px;
+}
+
+.offer__right {
+  width: 373px;
+  height: 529px;
+  background-color: #222224;
+}
+
 .footer {
   height: 100px;
   background-color: grey;
